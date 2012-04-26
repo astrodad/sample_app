@@ -12,6 +12,7 @@ group :development, :test do
   gem 'annotate', '~> 2.4.1.beta'
   gem 'guard-spork', '0.3.2'
   gem 'spork', '0.9.0'
+  gem 'factory_girl_rails', '1.4.0'
 end
 
 # Gems used only for assets and not required
@@ -27,12 +28,12 @@ group :test do
   gem 'rspec-rails', '2.9.0'
   gem 'capybara', '1.1.2'
 # These are for developing on Windows.
-  gem 'rb-fchange', '0.0.5'
-  gem 'rb-notifu', '0.0.4'
-  gem 'win32console', '1.3.0'
+#  gem 'rb-fchange', '0.0.5'
+#  gem 'rb-notifu', '0.0.4'
+#  gem 'win32console', '1.3.0'
 # These are for developing on the Mac.
-#  gem 'rb-fsevent', '0.4.3.1', :require => false
-#  gem 'growl', '1.0.3'
+  gem 'rb-fsevent', '0.4.3.1', :require => false
+  gem 'growl', '1.0.3'
 end
 
 group :production do
